@@ -6,6 +6,9 @@ body{
 body{
     font-family: 'Manrope', sans-serif;
 }
+a{
+    text-decoration: none;
+}
 .container{
     max-width: 1300px;
     margin: 0 auto;
@@ -33,7 +36,7 @@ body{
     margin-left: 42px;
 }
 .main-menu a{
-    color: #FFF;
+    color: #da8989;
     font-size: 14px;
     font-family: Plus Jakarta Sans;
     font-style: normal;
@@ -41,5 +44,126 @@ body{
     line-height: normal;
 }
 .header__button{
+    border-radius: 100px;
+    background: black;
+    padding: 11px 22px 11px 21px;
+    box-sizing: border-box;
+
+    color: aliceblue;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
     
+}
+
+.container--big{
+    max-width: 1920px;
+
+}
+
+.hero{}
+
+.hero__row{
+    display: flex;
+}
+.hero__left{
+    width: 45%;
+}
+.hero__{}
+.hero__{}
+.hero__{}
+.hero__{}
+.hero__{}
+
+.offer{}
+.offer__link{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    position: relative;
+    border-radius: 24px;
+    height: 270px;
+}
+
+.offer__link img:first-child{
+    position: absolute;
+    top: -47%;
+    right: -8%;
+    z-index: -89;
+
+    border-radius: 24px;
+    background: linear-gradient();
+}
+
+.offer__link img:nth-child(2){
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.offer__link:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: o;
+    height: 100%;
+    width: 100px;
+    background: linear-gradient();
+}
+
+.offer__text{
+    position: relative;
+    z-index: 50;
+    color: #f7eeee;
+    font-family: Manrope;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hero__offer{
+    margin-bottom: 45px;
+}
+
+.teg__item{
+    display: inline-flex;
+    padding: 8px 18px;
+    border-radius: 4px;
+    background: rgba(13, 50, 239, 0.10);
+    color: #0E33F0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.button-with-icons{
+    margin-top: 64px;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 100px;
+    background: border-radius: 100px;
+    background: var(--blue, linear-gradient(135deg, #3857F6 0%, #0B30EF 100%));
+    
+}
+
+.icon-book{
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+    margin-right: 24px;
+}
+
+.icon-arrow-down{
+    height: 24px;
+    width: 24px;
+    margin-left: 16px;
+    stroke: #f7eeee;
+    flex-shrink: 0;
+    transition: 0.3s;
 }
